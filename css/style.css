@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+}
+/*------------------------pre header------------------------*/
+.preheader {
+    display: flex;
+    justify-content: space-between;
+    height: 45px;
+    align-items: center;
+    font-size: 15px;
+    color: white;
+    background-color: #362F2D;
+}
+
+.headerlogo {
+    width: 30%;
+    text-align: right;
+    margin-right: 10%;
+}
+
+.contactsheader{
+    width: 450px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 7%;
+    font-size: 12px;
+}
+
+.contactsheader i , p {
+    display: inline;
+}
+
+.headerlogo i {
+    font-size: 20px;
+}
+
+.preheader i {
+    color: rgb(0, 140, 255);
+}
+
+/*----------------------pre header end----------------------*/
+
+/*---------------------------header-------------------------*/
+.headermain {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 150px;
+}
+
+.headerimg{
+    margin-left: 10%;
+}
+.headerlist{
+    margin-right: 5%;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+/*-------------------------header end-----------------------*/
+
+/*-------------------------slider---------------------------*/
+.slidermain img {
+    height: 450px;
+}
+/*-------------------------slider end-----------------------*/
+
+/*-------------------------section--------------------------*/
+.sectionmain {
+    display: flex;
+    justify-content: space-between;
+    margin: 3% 3%;
+}
+.section {
+    background-color: rgb(64, 160, 224);
+    width: 280px;
+    height: 300px;
+    text-align: center;
+    padding: 20px;
+}
+
+section i {
+    font-size: 50px;
+    padding: 5px 15px;
+    color: white;
+    border: 2px solid white;
+}
+
+section h3 {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px;
+}
+
+section p {
+    color: white;
+}
+/*------------------------section end-----------------------*/
+
+/*---------------------------journal------------------------*/
+.practicaljournal {
+    background-image: url("../img/security.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 270px;
+}
+.journalblack {
+    width: auto;
+    height: 50px;
+    text-align: center;
+    color: black;
+    padding: 5% 10%;
+}
+
+.socialjournal{
+    background-image: url("../img/socialback.jpg");
+    width: 100%;
+    height: 270px;
+    text-align: center;
+    color: white;
+}
+
+.journalwhite {
+    width: auto;
+    height: 50px;
+    text-align: center;
+    color: white;
+    padding: 5% 10%;
+}
+.buttonjournal{
+    margin-top: 20px;
+}
+/*------------------------journal end-----------------------*/
+
+.headings{
+    color: black;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+/*------------------------lectors---------------------------*/
+.lectors {
+    border:1px solid rgb(0, 140, 255);
+    width: 280px;
+    height: 300px;
+    text-align: center;
+    padding: 20px;
+}
+
+.lectors p {
+    font-size: 13px;
+}
+
+.lectors h5 {
+   color: rgb(0, 140, 255);
+   padding-top: 10px;
+}
+/*------------------------lectors end------------------------*/
+
+/*------------------------membership-------------------------*/
+.membership{
+    display: flex;
+    justify-content: space-evenly;
+}
+.member {
+    background-color: #f7f7f7;
+    width: 350px;
+    height: 400px;
+    text-align: center;
+    padding: 20px;
+}
+
+.bluecolor{
+    width: 100%;
+    background-color: rgb(0, 140, 255);
+    margin-bottom: 40px;
+    color: white;
+}
+
+.member i {
+    border-bottom: 1px solid gray;
+}
+
+/*------------------------membership end---------------------*/
+
+/*------------------------journaldonate----------------------*/
+.journaldonate {
+    background-image: url("../img/background.jpg");
+    width: 100%;
+    height: 270px;
+    text-align: center;
+    color: black;
+    margin-top: 40px;
+}
+
+.journaldonate h2 {
+    padding-top: 70px;
+}
+
+/*-----------------------journaldonate end-------------------*/
+
+
+/*-----------------------footer------------------------------*/
+.footermain {
+    background-color: #362F2D;
+}
+.footerlogos {
+    text-align: center;
+    padding:80px 0;
+
+}
+.footerend {
+    display: flex;
+    justify-content: space-around;
+    border-top: 1px solid white;
+    color: white;
+    font-size: 10px;
+}
+
+.part1{ 
+    margin: 20px;
+}
+
+.part2 {
+    margin:20px;
+}
+
+.part2 a {
+    text-decoration: none;
+    color: rgb(0, 140, 255);
+    margin:20px;
+}
+/*-----------------------footer end--------------------------*/
